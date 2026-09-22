@@ -1,4 +1,4 @@
-# ff_sprite_decoder
+# ff-unity-sprite
 
 Decode Unity UI sprite data from Free Fire asset files into structured Python objects.
 
