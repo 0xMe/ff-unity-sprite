@@ -4,8 +4,12 @@ Decode Unity UI sprite data from Free Fire asset files into clean Python objects
 
 ## Install
 
-Install straight from GitHub:
+Install from PyPI:
+```bash
+pip install ff-unity-sprite
+```
 
+Or Install straight from GitHub:
 ```bash
 pip install git+https://github.com/0xMe/ff-unity-sprite.git
 ```
