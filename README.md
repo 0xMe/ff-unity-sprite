@@ -1,8 +1,10 @@
 # ff-unity-sprite
 
-Decode Unity UI sprite data from Free Fire asset files into structured Python objects.
+Decode Unity UI sprite data from Free Fire asset files into clean Python objects. Simple, fast, no drama.
 
-## Installation
+## Install
+
+Install straight from GitHub:
 
 ```bash
 pip install git+https://github.com/0xMe/ff-unity-sprite.git
@@ -19,7 +21,7 @@ for sprite in sprites:
     print(sprite)
 ```
 
-You can also save the extracted sprites as JSON:
+## Save as JSON
 
 ```python
 import json
@@ -37,6 +39,12 @@ with open("sprites_output.json", "w", encoding="utf-8") as f:
         ensure_ascii=False,
     )
 ```
+
+## Example Output
+
+Want to see what the output looks like?
+
+[View the example JSON](https://github.com/0xMe/ff-unity-sprite/blob/main/tests/sprites_output.json)
 
 ## Requirements
 
