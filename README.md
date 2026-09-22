@@ -5,7 +5,7 @@ Decode Unity UI sprite data from Free Fire asset files into structured Python ob
 ## Installation
 
 ```bash
-pip install ff-unity-sprite
+pip install git+https://github.com/0xMe/ff-unity-sprite.git
 ```
 
 ## Usage
