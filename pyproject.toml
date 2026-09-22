@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ff-unity-sprite"
+version = "1.0.0"
+description = "Unity sprite data decoder for Free Fire asset data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "0xMe" }
+]
+dependencies = [
+    "UnityPy>=1.24.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/0xMe/ff_sprite_decoder"
+
+[tool.setuptools.packages.find]
+where = ["src"]
